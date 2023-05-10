@@ -105,7 +105,9 @@ img {
     align-items: center;
   }
 }
-
+.barra {
+  padding-top: 3rem;
+}
 .logo {
   color: var(--blanco);
 }
@@ -132,7 +134,7 @@ img {
   color: var(--blanco);
 }
 
-/*! CREACION DEL BLOG  */
+/*! BLOG  */
 
 @media (min-width: 768px) {
   .contenido-principal {
@@ -196,4 +198,11 @@ img {
 
 .widget-curso__info {
   font-weight: 400;
+}
+
+.footer {
+  display: flex;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  background-color: var(--negro);
 }
