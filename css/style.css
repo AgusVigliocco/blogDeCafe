@@ -206,3 +206,19 @@ img {
   margin-top: 3rem;
   background-color: var(--negro);
 }
+
+/*! SOBRE NOSOTROS  */
+
+@media (min-width: 768px) {
+  .sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    align-items: center;
+  }
+}
+.sobre-nosotros__texto {
+  font-family: var(--fuenteParrafos);
+  font-weight: 700;
+  font-style: italic;
+}
